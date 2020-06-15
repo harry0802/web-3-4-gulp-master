@@ -1,0 +1,277 @@
+
+/*  介紹區塊*/
+.service{
+    padding-top: 64px;
+    padding-bottom: 80px;
+}
+
+
+.service-title{
+    padding-bottom: 60px;
+}
+.service-item{
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+}
+.service-item  h3{
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 600;
+    
+}
+.service-item  p{
+    width: 208px;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    font-weight: 600;
+    margin-top: 4px;
+}
+.circle img{
+    margin:16px 0 40px 0;
+}
+.love img{
+    margin:20px 0 42.01px 0;
+}
+.glasses img{
+    margin:32px 0 54.01px 0;
+}
+/* 經典系列區塊 */
+.classic-gorup-item{
+    margin-bottom: 32px;
+}
+.classic-gorup-item h3{
+    font-size: 48px;
+    line-height: 57px;
+    font-weight: 900;
+    color: #AA0601;
+    margin:0 24px;
+    
+}
+.classic-gorup-item h3:before{
+    content: "";
+    margin-right: 8px; 
+}
+.classic-gorup-item:nth-child(1) h3:before{
+    background-image:url(../images/iconfinder_44_2529968.svg);
+    width: 48px;
+    height: 38px;
+    }
+    .classic-gorup-item:nth-child(2) h3:before{
+        background-image:url(../images/Layer_1.svg);
+        width: 48px;
+        height: 48px;
+        }
+        .classic-gorup-item:nth-child(3) h3:before{
+            background-image:url(../images/Page-1.svg);
+            width: 35px;
+            height: 48px;
+            }
+.classic-gorup-item-hover{
+    filter: grayscale(1);
+}
+.classic-gorup-item-hover:hover{
+    filter: grayscale(0);
+    transition: all .3s;
+}
+
+/* 聯名設計 */
+.JointDesign{
+    background: url(../images/nick-owuor-astro-nic-visuals-54Q_HvMWtVE-unsplash.png) center center/100% 100%;
+    padding-bottom: 479px;
+   
+}
+.Joint-design-title{
+    color: #fff;
+    padding-top: 64px;
+    padding-bottom: 60px;
+}
+.Joint-design-warp{
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.gaze{
+    flex-direction: column;
+    align-items: flex-end;
+}
+.moer{
+    position: relative;
+    height: 100%;
+    display: flex;
+}
+.moer span{
+    font-size: 72px;
+    font-weight: bold;
+    color: #AA0601;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 65%;
+    z-index: 1;
+}
+
+.moer::after{
+    content: "";
+    background:#fff ; 
+    position: absolute;   
+    top:21.5px;
+    bottom:21.5px;
+    left: 10%;
+    transform: translateX(0);
+    
+    right: -85px;
+    
+}
+.moer span::after {
+    content: 'MORE';
+    position: absolute;
+    transition: all .65s .3s;
+    transform: translateY(0px);
+}
+.moer span:hover::before {
+    transform: translateY(-85px);
+    opacity: .7;
+  }
+.moer span::before {
+    content: 'MORE';
+    position: absolute;
+    transition: all .65s .3s;
+    transform: translateY(0px);
+}
+.moer span:hover::after {
+    transform: translateY(-145px);
+    opacity: .4;
+  }
+  .moer span:hover img:last-child{
+    transform: translateX(15px);
+    transition: all .65s .3s;
+  }
+  /*  <!-- 聯名設計-模糊背景區塊 --> */
+.kind-grup-item{
+    width: 48.75%;
+    padding-top: 242px;
+    padding-bottom: 242px;
+    justify-content: center;
+    position: relative;
+}
+.matte{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.kind-grup-item a{
+text-decoration: none;
+    font: 700 72px/108px Roboto;
+    color: #AA0601;
+    z-index: 1;
+}
+
+.kind-grup-item:first-child{
+    background: url(../images/14.png) center center /100% 100%;
+}
+.kind-grup-item:last-child{
+    background: url(../images/39.png) center center /100% 100%;
+}
+/* <!-- 顧客推薦 --> */
+.recommend{
+    transform: translateY(-335px);
+    height:calc(650px - 335px);
+}
+.recommend-title{
+    color: #fff;
+    margin-bottom: 60px;
+}
+.character{
+    padding: 16px;
+    border: 1px solid #dee2e6;
+}
+.recommend-group{
+    margin-bottom: 80px;
+}
+.character-name,
+.character-txt{
+    color: #212529;
+    margin-bottom: 16px;
+}
+.character-name{
+    font: 500 16px/21px Roboto;
+}
+.character-txt{
+    font: 400 16px/24px Roboto;
+}
+.character-time{
+    font: 400 16px/21px Roboto;
+    color: #707070;
+}
+/* 表單 */
+.contactUs{
+background-color: #AA06010D;
+}
+.contactUs-title-txt{
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contactUs-warp{
+    padding: 64px 0 92px 0;
+    width: 66%;
+    margin: auto;
+}
+.form-input-group label{
+    margin-bottom: 4px;
+}
+.group-form input{
+    margin-bottom: 16px;
+    background:transparent;
+}
+.group-form-input{
+    display: block;
+    width: 100%;
+    height: 48px;
+    padding:0 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+    background: #AA06010D;
+    background-clip: padding-box;
+    border: 1px solid #000;
+    font-family: Roboto;
+    
+}
+.group-form-textarea textarea{
+    background:transparent;
+    resize: none;
+    height: 136px;
+    padding-top: 14px;
+    padding-left: 16px;
+}
+
+.btn-group{
+    align-self:center;
+    
+}
+.group-form-checkbox{
+    margin-bottom: 40px;
+}
+.btn-group input{
+    width: 180px;
+    height: 54px;
+    color: #fff;
+    background-color: #AA0601;
+    border: none;
+    font-weight: 800;
+}   
+.btn-group input:hover{
+    border: none;
+    background: #000;
+    background: #650300;
+    
+}
+

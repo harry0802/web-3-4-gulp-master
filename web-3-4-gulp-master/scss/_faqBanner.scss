@@ -1,0 +1,49 @@
+/* faq-banner */
+.faqBanner{
+    background: url(../images/72.png) center center /100% 100%;
+    height: 304px;
+}
+.faqBanner>.container{
+    justify-content: start;
+    align-items: flex-end;
+
+}
+.QualityAssurance{
+    padding: 88px 0 152px 0;
+}
+.QualityAssurance-inner .title{
+    text-align: start;
+    font-size: 32px;
+    height: 63px;
+}
+.QualityAssurance-List{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+
+}
+
+.QualityAssurance-item-header,
+.QualityAssurance-item-body
+{
+    border-top: 1px solid #000;
+    padding: 20px;
+}
+.QualityAssurance-item-body{
+    background-color: #F2F2F2;
+    line-height: 24px;
+}
+.QualityAssurance-item-header a{
+    width: 100%;
+    text-decoration: none;
+  color: black;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+}
+.QualityAssurance-item:not(.active) .up{
+    display: none;
+  }
+  .QualityAssurance-item.active .down{
+    display: none;
+  }
